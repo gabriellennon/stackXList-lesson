@@ -1,0 +1,35 @@
+.container-card {
+    background: var(--gray-600);
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+}
+
+.container-card p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: var(--gray-200);
+}
+
+.container-card button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: var(--white);
+    transition: color 0.2s;
+    /* Por ser um botao de icone a gente coloca isso para que quando navegar por tab a borda fique mais colada no icone */
+    line-height: 0; 
+    border-radius: 2px;
+}
+
+.container-card button:hover{
+    cursor: pointer;
+    color: var(--red-500);
+}
