@@ -15,7 +15,6 @@ export function Home() {
             <div className="container-list">
                 <CardUser name="Gabriel Lennon" />
                 <CardUser name="Beatriz" />
-                <CardUser name="Lucas" />
             </div>
         </div>
     )
