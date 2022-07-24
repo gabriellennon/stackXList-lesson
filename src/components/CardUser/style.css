@@ -30,6 +30,5 @@
 }
 
 .container-card button:hover{
-    cursor: pointer;
     color: var(--red-500);
 }
